@@ -6,10 +6,13 @@
 }
 .container-fluid img {
   position: absolute;
-  margin-left: 25%;
+  margin-left: 42%;
   width: 240px;
 }
-
+.btn {
+  margin-left: 20%;
+  margin-right: 20%;
+}
 .green {
   color: #519839;
 }
@@ -32,4 +35,9 @@
 
 .ikigai-picture {
   width: 60%;
+}
+
+.links {
+  background-color: #9258AC;
+  padding-bottom: 2%;
 }

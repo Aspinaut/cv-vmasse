@@ -12,32 +12,50 @@
 
     </div>
     <div class="container content">
-      <div class="d-flex align-items-center text-center cv-header">
+      <div class="titles text-center">
+        <h1>Vincent MASSE</h1>
+        <h3>Développeur web</h3>
+        <a type="button" class="btn btn-warning" href="#links">Liens</a>
+        <div class="dropdown">
+          <button type="button" class="btn btn-info dropdown-toggle" href="#contact" data-toggle="dropdown" id="dropdownMenu">Contact</button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+            <p class="dropdown-item">MASSE Vincent</p>
+            <p class="dropdown-item">102, rue du Gras Boeuf</p>
+            <p class="dropdown-item">n°81, résidence les 5 pommes</p>
+            <p class="dropdown-item">59163 Condé sur l'Escaut</p>
+            <p class="dropdown-item">+33 6 28 53 65 98</p>
+            <p class="dropdown-item">vincentmasse@protonmail.com</p>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="d-flex text-center cv-header">
         <div class="col-4">
-          <button type="button" class="btn btn-primary" href="#">Liens</button>
+          <button type="button" class="btn btn-primary  mr-5" href="#">Liens</button>
         </div>
         <div class="col-4 titles">
           <h1>Vincent MASSE</h1>
           <h3>Développeur web</h3>
         </div>
         <div class="col-4">
-          <button type="button" class="btn btn-primary" href="#">Contact</button>
+          <button type="button" class="btn btn-primary ml-5" href="#">Contact</button>
         </div>
       </div>
-
+-->
       <div class="cv-body">
         <nav class="mb-5 mt-5 navbar">
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="true">Compétences</a>
-            <a class="nav-item nav-link" id="nav-trainings-tab" data-toggle="tab" href="#nav-trainings" role="tab" aria-controls="nav-trainings" aria-selected="false">Formations</a>
-            <a class="nav-item nav-link" id="nav-xp-tab" data-toggle="tab" href="#nav-xp" role="tab" aria-controls="nav-xp" aria-selected="false">Expériences</a>
-            <a class="nav-item nav-link" id="nav-languages-tab" data-toggle="tab" href="#nav-languages" role="tab" aria-controls="nav-languages" aria-selected="false">Langues</a>
-            <a class="nav-item nav-link" id="nav-passions-tab" data-toggle="tab" href="#nav-passions" role="tab" aria-controls="nav-passions" aria-selected="false">Passions</a>
+            <a class="nav-item nav-link" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="true" onclick="manageNavbarContent('nav-skills')">Compétences</a>
+            <a class="nav-item nav-link" id="nav-trainings-tab" data-toggle="tab" href="#nav-trainings" role="tab" aria-controls="nav-trainings" aria-selected="false"
+            onclick="manageNavbarContent('nav-trainings')">Formations</a>
+            <a class="nav-item nav-link" id="nav-xp-tab" data-toggle="tab" href="#nav-xp" role="tab" aria-controls="nav-xp" aria-selected="false" onclick="manageNavbarContent('nav-xp')">Expériences</a>
+            <a class="nav-item nav-link" id="nav-languages-tab" data-toggle="tab" href="#nav-languages" role="tab" aria-controls="nav-languages" aria-selected="false" onclick="manageNavbarContent('nav-languages')">Langues</a>
+            <a class="nav-item nav-link" id="nav-passions-tab" data-toggle="tab" href="#nav-passions" role="tab" aria-controls="nav-passions" aria-selected="false" onclick="manageNavbarContent('nav-passions')">Passions</a>
           </div>
         </nav>
 
         <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade active show" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
+          <div class="tab-pane fade active show" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab" style="display:">
             <p>
               <i class="fab fa-linux"></i>
               <span class="underline">OS :</span> <span class="green">Linux (<span>Fedora</span>,  <span class="blue">Debian</span>)</span>, <span class="blue">Windows</span>, <span class="orange">MacOS</span></p>
@@ -65,7 +83,7 @@
             <hr class="mt-5">
           </div>
 
-          <div class="tab-pane fade active show" id="nav-trainings" role="tabpanel" aria-labelledby="nav-trainings-tab">
+          <div class="tab-pane fade active show" id="nav-trainings" role="tabpanel" aria-labelledby="nav-trainings-tab" style="display:none">
             <p><span class="underline">nov 2020 - :</span>    19network42 coding school, Bruxelles</p>
             <p><span class="underline">oct 2020 - aout 2021:</span> Formation full-stack Valarep, Valenciennes</p>
             <p><span class="underline">avril - juin 2020 :</span> Formation découverte web dev, The Hacking Project</p>
@@ -75,15 +93,15 @@
             <hr class="mt-5">
           </div>
 
-          <div class="tab-pane fade active show" id="nav-xp" role="tabpanel" aria-labelledby="nav-xp-tab">
+          <div class="tab-pane fade active show" id="nav-xp" role="tabpanel" aria-labelledby="nav-xp-tab" style="display:none">
             <p><span class="underline">janvier - mars 2020 :</span> Ouvrier serriste à Tom d'Aqui, Landes, France</p>
             <p><span class="underline">2016/2018/2019 :</span> Saisons de vendanges comme ouvrier agricole, Jura et Bourgogne, France</p>
             <p><span class="underline">mars 2018 :</span> Préparation de l'exposition Oscurana au château de la Borie, Limousin, France</p>
-            <p><span class="underline">août 2016 :</span> Stage d'archéologie et de restauration de bâtiments anciens, Siedlecin, Pologne</p>
+            <p><span class="underline">août 2016 :</span> Chantier participatif d'archéologie et de restauration de bâtiments anciens, Siedlecin, Pologne</p>
             <hr class="mt-5">
           </div>
 
-          <div class="tab-pane fade active show" id="nav-languages" role="tabpanel" aria-labelledby="nav-languages-tab">
+          <div class="tab-pane fade active show" id="nav-languages" role="tabpanel" aria-labelledby="nav-languages-tab" style="display:none">
             <p><span class="underline">Français</span> :
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -130,7 +148,7 @@
 
           </div>
 
-          <div class="tab-pane fade active show" id="nav-passions" role="tabpanel" aria-labelledby="nav-passions-tab">
+          <div class="tab-pane fade active show" id="nav-passions" role="tabpanel" aria-labelledby="nav-passions-tab" style="display:none">
             <p>
               <i class="fas fa-dice"></i>
               Jeux (vidéos, de cartes, de société, de rôles)
@@ -156,13 +174,18 @@
     </div>
     <div class="text-center cv-footer">
       <div class="ikigai">
-        <h3>IKIGAI</h3>
+        <h2>IKIGAI</h2>
         <img class="ikigai-picture" src="Screenshot_20201024_112006.png" alt="">
         <hr>
       </div>
-      <div class="links">
-        <h3>LINKS</h3>
-        <hr>
+      <div class="pt-4 links" id="links">
+        <h2>LIENS</h2>
+        <p>
+          <i class="fab fa-github"></i>
+          <span class="underline">GitHub :</span> <a href="https://github.com/Aspinaut">https://github.com/Aspinaut</a></p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <span class="underline">LinkedIn :</span> <a href="https://www.linkedin.com/in/vincent-masse-701a931a3/">https://www.linkedin.com/in/vincent-masse-701a931a3/</a></p>
       </div>
     </div>
   </body>
@@ -173,4 +196,11 @@
 
   <!-- FONTAWESOME -->
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+  <!-- NAVBAR -->
+  <script>
+  function manageNavbarContent(id) {
+    document.getElementById(id).style.display = "";
+  }
+  </script>
 </html>
