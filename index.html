@@ -7,38 +7,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   </head>
   <body>
-    <!--
-    <div class="container">
-      <div class="card card-custom bg-white border-white border-5" style="height: 450px">
-        <div class="card-custom-img"></div>
-        <div class="card-custom-avatar">
-          <img class="img-fluid" src="IMG_20201024_090805.jpg" alt="Avatar">
-        </div>
-        <div class="d-flex align-items-center text-center">
-          <div class="col-4 m-auto">
-            <button type="button" class="btn btn-primary" href="#"> lien </button>
-          </div>
-          <div class="col-4">
-            <h1>Vincent MASSE</h1>
-            <h3>Développeur web</h3>
-          </div>
-          <div class="col-4">
-            <button type="button" class="btn btn-primary" href="#">contact</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <img class="img-fluid" src="IMG_20201024_090805.jpg" alt="Avatar">
+    <div class="container-fluid background-image">
+      <img class="img-fluid" src="IMG_20201024_090805.png" alt="Avatar">
 
     </div>
-    <div class="container">
+    <div class="container content">
       <div class="d-flex align-items-center text-center cv-header">
-        <div class="col-4 m-auto">
+        <div class="col-4">
           <button type="button" class="btn btn-primary" href="#">Liens</button>
         </div>
-        <div class="col-4">
+        <div class="col-4 titles">
           <h1>Vincent MASSE</h1>
           <h3>Développeur web</h3>
         </div>
@@ -46,128 +24,148 @@
           <button type="button" class="btn btn-primary" href="#">Contact</button>
         </div>
       </div>
-    -->
-
-    <div class="baniere">
-        <div class="d-flex align-items-center text-center ">
-
-            <div class="col-lg-4" style="margin-top:150px">
-                <button type="button" class="btn btn-primary" href="#"> lien </button>
-            </div>
-
-
-            <div class="col-lg-4" style="margin-top:75px">
-                <div class="card card-custom bg-transparent">
-                    <img class="card-custom-avatar img-fluid" src="IMG_20201024_090805.jpg" alt="Responsive image" style="width:20%" />
-                    <div class="card-body">
-                        <h5 class="card-title">Vincent MASSE</h5>
-                        <p class="card-text">Developpeur Web</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4" style="margin-top:150px">
-                <button type="button" class="btn btn-primary" href="#">contact</button>
-            </div>
-        </div>
-    </div>
-
-
-
 
       <div class="cv-body">
-        <nav class="mb-5 mt-5">
+        <nav class="mb-5 mt-5 navbar">
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a class="nav-item nav-link" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="true">Compétences</a>
             <a class="nav-item nav-link" id="nav-trainings-tab" data-toggle="tab" href="#nav-trainings" role="tab" aria-controls="nav-trainings" aria-selected="false">Formations</a>
             <a class="nav-item nav-link" id="nav-xp-tab" data-toggle="tab" href="#nav-xp" role="tab" aria-controls="nav-xp" aria-selected="false">Expériences</a>
             <a class="nav-item nav-link" id="nav-languages-tab" data-toggle="tab" href="#nav-languages" role="tab" aria-controls="nav-languages" aria-selected="false">Langues</a>
-            <a class="nav-item nav-link" id="nav-else-tab" data-toggle="tab" href="#nav-else" role="tab" aria-controls="nav-else" aria-selected="false">Divers</a>
+            <a class="nav-item nav-link" id="nav-passions-tab" data-toggle="tab" href="#nav-passions" role="tab" aria-controls="nav-passions" aria-selected="false">Passions</a>
           </div>
         </nav>
 
         <div class="tab-content" id="nav-tabContent">
           <div class="tab-pane fade active show" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab">
-            <p>OS : <span class="green">Linux (<span>Fedora</span>,  <span class="blue">Debian</span>)</span> | <span class="blue">Windows</span> | <span class="orange">MacOS</span></p>
-            <p>Langages : <span class="green">C</span>, <span class="green">Ruby</span>, <span class="green">HTML/CSS/JS</span>, <span class="orange">PHP</span></p>
-            <p>BDD : <span class="green">PostgreSQL</span>, <span class="orange">MariaDB</span></p>
-            <p>Frameworks : <span class="green">Rails</span>, <span class="green">Bootstrap</span></p>
-            <p>CMS : <span class="orange">Wordpress</span>, <span class="orange">Joomla</span></p>
-            <p>IDE : <span class="green">Vim</span>, <span class="green">Atom</span>, <span class="blue">VsCode</span></p>
-            <p>Logiciels : <span class="green">Git</span>, <span class="green">VirtualBox</span>, <span class="green">Filezilla</span>, <span class="green">Suite Office</span>, <span class="blue">Suite Adobe (PS, Illustrator, InDesign)</span></p>
+            <p>
+              <i class="fab fa-linux"></i>
+              <span class="underline">OS :</span> <span class="green">Linux (<span>Fedora</span>,  <span class="blue">Debian</span>)</span>, <span class="blue">Windows</span>, <span class="orange">MacOS</span></p>
+            <p>
+              <i class="fas fa-code"></i>
+              <span class="underline">Langages :</span> <span class="green">C</span>, <span class="green">Bash</span>, <span class="green">Ruby</span>, <span class="green">HTML/CSS/JS</span>, <span class="orange">PHP</span></p>
+            <p>
+              <i class="fas fa-database"></i>
+               <span class="underline">BDD :</span> <span class="green">PostgreSQL</span>, <span class="orange">MariaDB</span></p>
+            <p>
+              <i class="fas fa-puzzle-piece"></i>
+              <span class="underline">Frameworks :</span> <span class="green">Rails</span>, <span class="green">Bootstrap</span></p>
+            <p>
+              <i class="fab fa-wordpress"></i>
+               <span class="underline">CMS :</span> <span class="orange">Wordpress</span>, <span class="orange">Joomla</span></p>
+            <p>
+              <i class="fas fa-atom"></i>
+              <span class="underline">IDE :</span> <span class="green">Vim</span>, <span class="green">Atom</span>, <span class="blue">VsCode</span></p>
+            <p>
+              <i class="fab fa-git-alt"></i>
+              <span class="underline">Logiciels :</span> <span class="green">Git</span>, <span class="green">VirtualBox</span>, <span class="green">Filezilla</span>, <span class="green">Suite Office</span>, <span class="blue">Suite Adobe (PS, Illustrator, InDesign)</span></p>
+            <p>
+              <i class="fas fa-car"></i>
+              Permis B + véhicule</p>
             <hr class="mt-5">
           </div>
 
           <div class="tab-pane fade active show" id="nav-trainings" role="tabpanel" aria-labelledby="nav-trainings-tab">
+            <p><span class="underline">nov 2020 - :</span>    19network42 coding school, Bruxelles</p>
+            <p><span class="underline">oct 2020 - aout 2021:</span> Formation full-stack Valarep, Valenciennes</p>
+            <p><span class="underline">avril - juin 2020 :</span> Formation découverte web dev, The Hacking Project</p>
+            <p><span class="underline">2017 - 2019 :</span> Etude autodidacte programmation informatique</p>
+            <p><span class="underline">2014 - 2016 :</span> Arts Graphiques, St Luc Tournai</p>
+            <p><span class="underline">2013 :</span> Baccalauréat STD2A (Arts Appliqués), Louvroil</p>
             <hr class="mt-5">
-
           </div>
 
           <div class="tab-pane fade active show" id="nav-xp" role="tabpanel" aria-labelledby="nav-xp-tab">
+            <p><span class="underline">janvier - mars 2020 :</span> Ouvrier serriste à Tom d'Aqui, Landes, France</p>
+            <p><span class="underline">2016/2018/2019 :</span> Saisons de vendanges comme ouvrier agricole, Jura et Bourgogne, France</p>
+            <p><span class="underline">mars 2018 :</span> Préparation de l'exposition Oscurana au château de la Borie, Limousin, France</p>
+            <p><span class="underline">août 2016 :</span> Stage d'archéologie et de restauration de bâtiments anciens, Siedlecin, Pologne</p>
             <hr class="mt-5">
-
           </div>
 
           <div class="tab-pane fade active show" id="nav-languages" role="tabpanel" aria-labelledby="nav-languages-tab">
-            <p>Français :
+            <p><span class="underline">Français</span> :
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </p>
-            <p>Anglais : </p>
+            <p><span class="underline">Anglais</span> :
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
-            <p>Allemand : </p>
+            </p>
+            <p><span class="underline">Allemand</span> :
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
-            <p>Espagnol : </p>
+            </p>
+            <p><span class="underline">Espagnol</span> :
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
-            <p>Italien : </p>
+            </p>
+            <p><span class="underline">Italien</span> :
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
-            <p>Hindi : </p>
+            </p>
+            <p><span class="underline">Hindi</span> :
               <i class="fas fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
               <i class="far fa-star"></i>
+            </p>
             <hr class="mt-5">
 
           </div>
 
-          <div class="tab-pane fade active show" id="nav-else" role="tabpanel" aria-labelledby="nav-else-tab">
+          <div class="tab-pane fade active show" id="nav-passions" role="tabpanel" aria-labelledby="nav-passions-tab">
+            <p>
+              <i class="fas fa-dice"></i>
+              Jeux (vidéos, de cartes, de société, de rôles)
+            </p>
+            <p>
+              <i class="fas fa-book"></i>
+              Lecture (S-F, fantasy, développement personnel)
+            </p>
+            <p>
+              <i class="fas fa-music"></i>
+              Piano
+            </p>
+            <p>
+              <i class="fas fa-fist-raised"></i>
+              Karaté
+            </p>
             <hr class="mt-5">
-
           </div>
-
         </div>
+
+
+      </div>
+    </div>
+    <div class="text-center cv-footer">
+      <div class="ikigai">
+        <h3>IKIGAI</h3>
+        <img class="ikigai-picture" src="Screenshot_20201024_112006.png" alt="">
+        <hr>
+      </div>
+      <div class="links">
+        <h3>LINKS</h3>
+        <hr>
       </div>
     </div>
   </body>
-
-
-
-
-
-
-
-
-
 
   <!-- BOOTSTRAP -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

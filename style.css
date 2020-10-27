@@ -1,7 +1,3 @@
-.card-custom {
-  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
-}
-
 .container-fluid {
   background-image: url('bg-cv.jpg');
   background-size: cover;
@@ -10,13 +6,8 @@
 }
 .container-fluid img {
   position: absolute;
-  margin-top: 5%;
-  margin-left: 40%;
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  margin-left: 25%;
+  width: 240px;
 }
 
 .green {
@@ -24,23 +15,21 @@
 }
 
 .blue {
-  color: #191970;
+  color: #0077AA;
 }
 
 .orange {
   color: #FF8C00;
 }
 
-.baniere{
-    background: url('bg-cv.jpg') no-repeat fixed  ;
-    background-size:cover;
-    height:150px;
+.titles {
+  margin-top: 10%;
 }
 
-.card img {
-  border-radius: 50%;
+.underline {
+  text-decoration: underline;
+}
 
-  overflow: hidden;
-  max-height: auto;
-  width: 100%;
+.ikigai-picture {
+  width: 60%;
 }
