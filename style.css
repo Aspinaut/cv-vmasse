@@ -1,0 +1,46 @@
+.card-custom {
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.container-fluid {
+  background-image: url('bg-cv.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+}
+.container-fluid img {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 40%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+}
+
+.green {
+  color: #519839;
+}
+
+.blue {
+  color: #191970;
+}
+
+.orange {
+  color: #FF8C00;
+}
+
+.baniere{
+    background: url('bg-cv.jpg') no-repeat fixed  ;
+    background-size:cover;
+    height:150px;
+}
+
+.card img {
+  border-radius: 50%;
+
+  overflow: hidden;
+  max-height: auto;
+  width: 100%;
+}
