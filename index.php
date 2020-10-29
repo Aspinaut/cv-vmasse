@@ -15,8 +15,9 @@
       <div class="titles text-center">
         <h1>Vincent MASSE</h1>
         <h3>Développeur web</h3>
-        <a type="button" class="btn btn-warning" href="#links">Liens</a>
+        <a href="CV_VincentMasse.pdf" download>Télécharger PDF</button>
         <div class="dropdown">
+          <a type="button" class="btn btn-warning" href="#links">Liens</a>
           <button type="button" class="btn btn-info dropdown-toggle" href="#contact" data-toggle="dropdown" id="dropdownMenu">Contact</button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu">
             <p class="dropdown-item">MASSE Vincent</p>
@@ -43,7 +44,7 @@
       </div>
 -->
       <div class="cv-body">
-        <nav class="mb-5 mt-5 navbar">
+        <nav class="mb-3 mt-5 navbar">
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a class="nav-item nav-link" id="nav-skills-tab" data-toggle="tab" href="#nav-skills" role="tab" aria-controls="nav-skills" aria-selected="true" onclick="manageNavbarContent('nav-skills')">Compétences</a>
             <a class="nav-item nav-link" id="nav-trainings-tab" data-toggle="tab" href="#nav-trainings" role="tab" aria-controls="nav-trainings" aria-selected="false"
@@ -58,25 +59,25 @@
           <div class="tab-pane fade active show" id="nav-skills" role="tabpanel" aria-labelledby="nav-skills-tab" style="display:">
             <p>
               <i class="fab fa-linux"></i>
-              <span class="underline">OS :</span> <span class="green">Linux (<span>Fedora</span>,  <span class="blue">Debian</span>)</span>, <span class="blue">Windows</span>, <span class="orange">MacOS</span></p>
+              <span class="underline">OS :</span> Linux (Fedora, Debian), Windows, MacOS</p>
             <p>
               <i class="fas fa-code"></i>
-              <span class="underline">Langages :</span> <span class="green">C</span>, <span class="green">Bash</span>, <span class="green">Ruby</span>, <span class="green">HTML/CSS/JS</span>, <span class="orange">PHP</span></p>
+              <span class="underline">Langages :</span> C, Bash, Ruby, HTML/CSS/JS, Lua, PHP</p>
             <p>
               <i class="fas fa-database"></i>
-               <span class="underline">BDD :</span> <span class="green">PostgreSQL</span>, <span class="orange">MariaDB</span></p>
+               <span class="underline">BDD :</span> PostgreSQL, MariaDB</p>
             <p>
               <i class="fas fa-puzzle-piece"></i>
-              <span class="underline">Frameworks :</span> <span class="green">Rails</span>, <span class="green">Bootstrap</span></p>
+              <span class="underline">Frameworks :</span> Rails, Bootstrap, LOVE2D</span></p>
             <p>
               <i class="fab fa-wordpress"></i>
-               <span class="underline">CMS :</span> <span class="orange">Wordpress</span>, <span class="orange">Joomla</span></p>
+               <span class="underline">CMS :</span> Wordpress, Joomla</p>
             <p>
               <i class="fas fa-atom"></i>
-              <span class="underline">IDE :</span> <span class="green">Vim</span>, <span class="green">Atom</span>, <span class="blue">VsCode</span></p>
+              <span class="underline">IDE :</span> Vim, Atom, VsCode</p>
             <p>
               <i class="fab fa-git-alt"></i>
-              <span class="underline">Logiciels :</span> <span class="green">Git</span>, <span class="green">VirtualBox</span>, <span class="green">Filezilla</span>, <span class="green">Suite Office</span>, <span class="blue">Suite Adobe (PS, Illustrator, InDesign)</span></p>
+              <span class="underline">Logiciels :</span> Git, VirtualBox, Filezilla, Suite Office, Suite Adobe (PS, Illustrator, InDesign)</p>
             <p>
               <i class="fas fa-car"></i>
               Permis B + véhicule</p>
@@ -94,6 +95,8 @@
           </div>
 
           <div class="tab-pane fade active show" id="nav-xp" role="tabpanel" aria-labelledby="nav-xp-tab" style="display:none">
+            <p><span class="underline">septembre 2020 :</span> piscine C à l'école 19, Bruxelles</p>
+            <p><span class="underline">juillet 2020 :</span> Projet de site web pour l'association Cuisines Citoyennes Collaboratives</p>
             <p><span class="underline">janvier - mars 2020 :</span> Ouvrier serriste à Tom d'Aqui, Landes, France</p>
             <p><span class="underline">2016/2018/2019 :</span> Saisons de vendanges comme ouvrier agricole, Jura et Bourgogne, France</p>
             <p><span class="underline">mars 2018 :</span> Préparation de l'exposition Oscurana au château de la Borie, Limousin, France</p>
@@ -174,18 +177,18 @@
     </div>
     <div class="text-center cv-footer">
       <div class="ikigai">
-        <h2>IKIGAI</h2>
         <img class="ikigai-picture" src="Screenshot_20201024_112006.png" alt="">
-        <hr>
       </div>
       <div class="pt-4 links" id="links">
-        <h2>LIENS</h2>
         <p>
           <i class="fab fa-github"></i>
-          <span class="underline">GitHub :</span> <a href="https://github.com/Aspinaut">https://github.com/Aspinaut</a></p>
+           <a href="https://github.com/Aspinaut">https://github.com/Aspinaut</a></p>
         <p>
           <i class="fab fa-linkedin"></i>
-          <span class="underline">LinkedIn :</span> <a href="https://www.linkedin.com/in/vincent-masse-701a931a3/">https://www.linkedin.com/in/vincent-masse-701a931a3/</a></p>
+          <a href="https://www.linkedin.com/in/vincent-masse-701a931a3/">https://www.linkedin.com/in/vincent-masse-701a931a3/</a></p>
+        <p>
+          <span class="underline">Projet Final de formation :</span>
+          <a href="https://thp-final-project.herokuapp.com">https://thp-final-project.herokuapp.com</a></p>
       </div>
     </div>
   </body>
