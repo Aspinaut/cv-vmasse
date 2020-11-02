@@ -2,13 +2,16 @@
   background-image: url('bg-cv.jpg');
   background-size: cover;
   background-position: center;
-  height: 180px;
+  height: 350px;
 }
+
 .container-fluid img {
-  position: absolute;
-  margin-left: 42%;
-  width: 240px;
+  max-width: 1000%;
+  height: 150%;
+  margin: auto;
+  padding-bottom: 5%;
 }
+
 .btn {
   margin-left: 20%;
   margin-right: 20%;
@@ -37,7 +40,12 @@
   width: 60%;
 }
 
-.links {
+.contact {
   background-color: #B0C4DE;
   padding-bottom: 2%;
+}
+@media screen and (min-width: 1200px) {
+  .container-fluid img {
+    height: 175%;
+  }
 }
